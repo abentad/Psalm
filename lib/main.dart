@@ -1,4 +1,4 @@
-import 'package:Psalm/screens/home_screen.dart';
+import 'package:Psalm/screens/test_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
         accentColor: Color(0xffeebf18),
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: HomeScreen(),
+      home: TestScreen(),
     );
   }
 }

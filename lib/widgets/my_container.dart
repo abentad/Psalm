@@ -2,8 +2,9 @@ import 'package:flutter/material.dart';
 
 class MyContainer extends StatelessWidget {
   final Color borderColor;
+  final Widget child;
 
-  MyContainer({this.borderColor});
+  MyContainer({this.borderColor, this.child});
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -28,6 +29,7 @@ class MyContainer extends StatelessWidget {
                   bottomRight: Radius.circular(20.0),
                 ),
               ),
+              child: child,
             ),
           )
         ],
